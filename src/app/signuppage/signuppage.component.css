@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    height: 770px;
+}
+.jumbotron {
+    background-image: linear-gradient(to bottom right, dodgerblue, deepskyblue);
+    color: white;
+    height: 350px;
+}
+.jumbotron-inner {
+    font-size: x-large;
+}
+.form {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 20px lightgray;
+    color: lightslategray;
+    background-color: white;
+    width: 86%;
+    left: 7%;
+    top: -120px;
+    padding: 20px;
+    padding-bottom: 85px;
+    font-size: 15px;
+}
+.form-group {
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+.form-control {
+    border-bottom: 1px solid lightgray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline-width: 0;
+}
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    /* -moz-box-shadow: none;
+    -webkit-box-shadow: none; 
+    border-color: transparent; */
+}
+input.form-control:active {
+    outline: none;
+    outline-width: 0;
+    border-color: transparent;
+}
+.glyph1 {
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    top: 26px;
+}
+.buttons {
+    position: relative;
+    bottom: 150px;
+    width: 60%;
+    left: 20%;
+    overflow: hidden;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+}
+.btn1 {
+    background-color: deepskyblue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 0 0 20px lightgray;
+}
+.btn1 a {
+    color: white;
+}
+.btn2 {
+    background-color: rgb(76, 67, 206);
+    color: lightgray;
+    font-size: 14px;
+    box-shadow: 0 0 20px lightgray;
+}
+.btn2 span {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.buttons p {
+    font-family: Verdana, Geneva, sans-serif;
+    color: lightslategray;
+    font-size: 12px;
+    font-weight: 500;
+}
